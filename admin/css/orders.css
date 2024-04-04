@@ -1,0 +1,101 @@
+* {
+    color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: #191919;
+    display: flex;
+}
+.container {
+    width: 100%;
+}
+.top {
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    border-collapse: collapse
+}
+.action_th {
+    text-align: center;
+    width: 27%
+}
+.action_button_divs {
+    background: #29A843;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
+.order_cancel {
+    background: #DC3544;
+}
+td, th {
+    width: 13.5%;
+}
+tr {
+    margin-top: 10px;
+}
+td {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+.number {
+    width: 3.5%;
+}
+.view_all {
+    width: 100%;
+    text-align: center;
+    background: #1E94FF;
+    cursor: pointer;
+}
+.add_new_item {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #29A843;
+}
+.category_table{
+    width: 25%;
+}
+.category_order_td {
+    padding: 5px;
+}
+.category_order {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 2px solid white;
+}
+option {
+    background: #191919;
+}
+.see_more_button {
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.delete_button {
+    background: #FF474C;
+}
+.delete_button:hover {
+    background: #ee3238 !important;
+}
+.add_new_product_button {
+    width: 100%;
+    background: #29A843;
+    text-align: center;
+    cursor: pointer;
+}

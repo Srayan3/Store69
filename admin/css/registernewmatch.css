@@ -1,0 +1,87 @@
+* {
+    color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: #191919;
+    display: flex;
+}
+.container {
+    width: 100%;
+}
+.top {
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.formparent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.formdiv {
+    width: 70%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+form {
+    width: 100%;
+}
+.inputbox {
+    margin-top: 20px;
+}
+.inputbox > label {
+    display: block;
+    color: black;
+}
+.inputbox > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px; 
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+}
+.inputbox > input:focus {
+    border: 3px solid grey;
+    outline: none;
+}
+.inputbox > button {
+    width: 100%;
+    background: #326c3e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.decbtn {
+    width: 400px;
+    background-color: #326c3e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.buttonss {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    margin-top: 50px;
+}

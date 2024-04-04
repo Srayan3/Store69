@@ -1,0 +1,38 @@
+.sidepanel {
+    background: #212121;
+    min-height: 100vh;
+    width: 20%;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+li {
+    border-top: 1px solid white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+li:hover {
+    background: #292929;
+}
+.sidepanelheader {
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: none;
+    cursor: default;
+}
+.sidepanelheader:hover {
+    background: #212121;
+}
+a {
+    text-decoration: none;
+}

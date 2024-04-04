@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Background Color on Click</title>
+<style>
+    .element {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin: 10px;
+        display: inline-block;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+<div class="element" onclick="changeColor(this)"></div>
+
+<script>
+function changeColor(element) {
+    // Reset the color of all elements
+    var elements = document.getElementsByClassName('element');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.backgroundColor = 'blue';
+    }
+    
+    // Change the color of the clicked element
+    element.style.backgroundColor = 'red';
+}
+</script>
+
+</body>
+</html>

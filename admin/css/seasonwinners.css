@@ -1,0 +1,55 @@
+* {
+    color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: #191919;
+    display: flex;
+}
+.container {
+    width: 100%;
+}
+.top {
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.tablegrandparent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tableparent {
+    width: 95%;
+}
+table {
+    width: 100%;
+}
+table, td, th {
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+}
+.regnewmatch {
+    cursor: pointer;
+    background: #3a5734;
+}
+.actiontds {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.submitbuttonl {
+    width: 100%;
+    border: none;
+    min-height: 50px;
+    cursor: pointer;
+}
