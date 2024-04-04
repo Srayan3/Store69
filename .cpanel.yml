@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/valorant/storesixtynine/
+    - /bin/cp * $DEPLOYPATH
